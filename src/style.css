@@ -1,3 +1,105 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    --color-normal: #A8A77A;
+    --color-fighting: #C22E28;
+    --color-flying: #A98FF3;
+    --color-poison: #A33EA1;
+    --color-ground: #E2BF65;
+    --color-rock: #B6A136;
+    --color-bug: #A6B91A;
+    --color-ghost: #735797;
+    --color-steel: #B7B7CE;
+    --color-fire: #EE8130;
+    --color-water: #6390F0;
+    --color-grass: #7AC74C;
+    --color-electric: #F7D02C;
+    --color-psychic: #F95587;
+    --color-ice: #96D9D6;
+    --color-dragon: #6F35FC;
+    --color-dark: #705746;
+    --color-fairy: #D685AD;
+    --color-unknown: #000000;
+    --color-shadow: #000000;
+}
+
+.bg-normal {
+    background-color: var(--color-normal);
+}
+
+.bg-fighting {
+    background-color: var(--color-fighting);
+}
+
+.bg-flying {
+    background-color: var(--color-flying);
+}
+
+.bg-poison {
+    background-color: var(--color-poison);
+}
+
+.bg-ground {
+    background-color: var(--color-ground);
+}
+.bg-rock {
+    background-color: var(--color-rock);
+}
+
+.bg-bug {
+    background-color: var(--color-bug);
+}
+
+.bg-ghost {
+    background-color: var(--color-ghost);
+}
+
+.bg-steel {
+    background-color: var(--color-steel);
+}
+
+.bg-fire {
+    background-color: var(--color-fire);
+}
+
+.bg-water {
+    background-color: var(--color-water);
+}
+
+.bg-grass {
+    background-color: var(--color-grass);
+}
+
+.bg-electric {
+    background-color: var(--color-electric);
+}
+
+.bg-psychic {
+    background-color: var(--color-psychic);
+}
+
+.bg-ice {
+    background-color: var(--color-ice);
+}
+
+.bg-dragon {
+    background-color: var(--color-dragon);
+}
+
+.bg-dark {
+    background-color: var(--color-dark);
+}
+
+.bg-fairy {
+    background-color: var(--color-fairy);
+}
+
+.bg-unknown {
+    background-color: var(--color-unknown);
+}
+
+.bg-shadow {
+    background-color: var(--color-shadow);
+}
